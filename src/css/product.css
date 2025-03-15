@@ -1,0 +1,80 @@
+.section-tests {
+  padding-bottom: 50px;
+}
+.tests-title {
+  max-width: 520px;
+  font-weight: 700;
+  font-size: 32px;
+  margin: 0 auto;
+  text-align: center;
+  color: #22343d;
+  margin-bottom: 50px;
+}
+.tests-list {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  margin-bottom: 50px;
+  width: calc((100%-30px * 3) / 4);
+}
+
+.tests-list-item {
+  padding-bottom: 26px;
+}
+.tests-item-title {
+  font-weight: 600;
+  font-size: 22px;
+  color: #22343d;
+  margin-right: auto;
+  margin-bottom: 13px;
+}
+.testr-item-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.63;
+  color: #22343d;
+  margin-right: auto;
+}
+.tests-icon-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 26px;
+}
+.tests-list-item:nth-child(1) .tests-icon-box {
+  border-radius: 19px;
+  width: 54px;
+  height: 54px;
+  background-color: #02897a;
+}
+.tests-list-item:nth-child(2) .tests-icon-box {
+  border-radius: 19px;
+  width: 54px;
+  height: 54px;
+  background-color: #4d8dff;
+}
+.tests-list-item:nth-child(3) .tests-icon-box {
+  border-radius: 19px;
+  width: 54px;
+  height: 54px;
+  background-color: #740a76;
+}
+.tests-list-item:nth-child(4) .tests-icon-box {
+  border-radius: 19px;
+  width: 54px;
+  height: 54px;
+  background-color: #f03e3d;
+}
+.tests-button {
+  font-family: 'Poppins', sans-serif;
+  display: block;
+  font-weight: 700;
+  font-size: 16px;
+  color: #fff;
+  border-radius: 4px;
+  background: #02897a;
+  border: none;
+  padding: 15px 41.7px 14px;
+  text-transform: uppercase;
+  margin: auto;
+}
